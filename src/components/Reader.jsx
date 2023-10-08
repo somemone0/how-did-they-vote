@@ -184,7 +184,8 @@ export default function Reader (props) {
 
     // Changes (or generates) the elections in the dataset for a given state
     useEffect(() => {
-        let electionsRequest = "http://" + serverUrl + "/elections?statecode=" + stateCode;
+        if (!stateCode) return
+        let electionsRequest = "https://" + serverUrl + "/elections?statecode=" + stateCode;
 
         fetch(electionsRequest)
             .then((response) => response.json())
