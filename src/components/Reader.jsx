@@ -155,7 +155,7 @@ export default function Reader (props) {
 
         console.log(currentElection)
         if (getLastElection(currentElection)) {
-            let last_election_request = "http://" + serverUrl
+            let last_election_request = "https://" + serverUrl
                 + "/electiondata?election=" + getLastElection(currentElection)
                 + "&blockfips=" + blockFips
                 + "&statecode=" + stateCode;
