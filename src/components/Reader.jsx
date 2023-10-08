@@ -14,7 +14,7 @@ export default function Reader (props) {
 
     const [message, setMessage] = useState("")
 
-    const [serverUrl, setServerUrl] = useState("5.161.86.174:5000")
+    const [serverUrl, setServerUrl] = useState("somemone.xyz")
 
     const [electionSelect, setElectionSelect] = useState(<div></div>)
 
