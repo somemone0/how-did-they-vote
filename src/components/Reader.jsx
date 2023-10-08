@@ -137,7 +137,7 @@ export default function Reader (props) {
         if (!stateCode) return
         if (Object.keys(elections).length === 0) return
 
-        let election_request = "http://" + serverUrl
+        let election_request = "https://" + serverUrl
             + "/electiondata?election=" + currentElection
             + "&blockfips=" + blockFips
             + "&statecode=" + stateCode;
