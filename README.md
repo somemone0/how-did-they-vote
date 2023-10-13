@@ -8,12 +8,13 @@ With this information, the user is presented with the block's lean in the 2020 U
 selecting the buttons on the top of the screen, the user can select the elections tracked by the DRA dataset (they change by state). Swings are available for non-presidential elections as well, but they only track swings between types of elections, not individual candidates. (The swing from the 2016 to 2018 Senate elections in Wisconsin tracks two different races, Baldwin-Vukmir and Johnson-Feingold)
 ### Reflection
 
-My favorite part about this project was the tangibility of its' results. After building its' first iteration, me and a friend drove around our town, just reading off the results it gave us. The project represented real data that existed, and 
+My favorite part about this project was the tangibility of its' results. After building its' first iteration, me and a friend drove around our town, just reading off the results it gave us. The project represents not only a webpage, but real data about the world. It added context to the world around me. Using live location data was also interesting, and I studied how Census Blocks and GEOIDs worked. Setting up the Flask backend on a small VPS, I learned about DNS systems, SSL, and deepened my knowledge of Linux management.
 
 ---
 ### APIs/Technologies Used
  - React (for the Frontend)
  - Flask (for the Voting Data API)
+ - Census API, distributed by the FCC
  - JavaScript
  - Python
 
